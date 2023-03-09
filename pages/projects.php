@@ -1,4 +1,24 @@
-<div class="project">
+<section class="slider-wrapper theme-default carousel">
+    <div id="slider" class="nivoSlider">
+        <!-- <a href="./galerie.html#cv-v3" aria-label="Go to the project"><img src="../img/cv-v3.png" data-thumb="image/cv-v3.png" alt="Site CV" class="side-image" /></a> -->
+        <a href="./galerie.html#js1" aria-label="Go to the project"><img src="../img/projet-js.png" data-thumb="image/projet-js.png" alt="projet JS" class="side-image" /></a>
+        <a href="./galerie.html#pony-css" aria-label="Go to the project"><img src="../img/pony-painting.png" data-thumb="image/pony-painting.png" alt="projet Full CSS" class="side-image" /></a>
+        <!-- <a href="./galerie.html#timelapse-css" aria-label="Go to the project"><img src="../img/sun.png" data-thumb="image/sun.png" alt="projet Full SASS" class="side-image" /></a> -->
+        <!-- <a href="./galerie.html#sql" aria-label="Go to the project"><img src="../img/sql.jpg" data-thumb="image/sql.jpg" alt="Logo SQL" class="side-image" /></a>
+        <a href="./galerie.html#java" aria-label="Go to the project"><img src="../img/java-pc.png" data-thumb="image/java-pc.png" alt="Java" class="side-image" /></a> -->
+    </div>
+</section>
+<!-- <script src="jquery-3.6.3.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+</script>
+
+<!-- <div class="project">
     <h1>Projets</h1>
     <div class="container">
         <figure class="project-box">
@@ -25,16 +45,16 @@
         </figure>
 
 
-        <!-- <figure class="project-box">
+         <figure class="project-box">
             <p>Projets réalisés en SQL</p>
             <img src="image/sql.jpg" data-thumb="image/sql.jpg" alt="SQL" />
             <figcaption>Gestion de bases de données avec des requêtes SQL</figcaption>
-        </figure> -->
-        <!-- <figure class="project-box">
+        </figure> 
+        <figure class="project-box">
             <p>Projet réalisé en Java</p>
             <img src="image/java-pc.png" data-thumb="image/java-pc.png" alt="Java" />
             <figcaption>Application de bureau réalisé avec le langage Java</figcaption>
-        </figure> -->
+        </figure>
     </div>
 
-</div>
+</div> -->

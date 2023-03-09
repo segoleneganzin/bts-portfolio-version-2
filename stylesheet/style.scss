@@ -3,12 +3,18 @@
 @import "./base/base";
 @import "./base/typography";
 
-@import "./layouts/menu";
+@import "./layouts/nav";
 @import "./layouts/header";
 @import "./layouts/footer";
 @import "./layouts/scroll-up";
 @import "./layouts/separation";
 @import "./layouts/reveal";
 
-@import "./pages/principal";
+@import "./pages/presentation";
 @import "./pages/index";
+@import "./pages/training";
+@import "./pages/skills";
+@import "./pages//projects";
+@import "./pages/contact";
+@import "./pages/private-access";
+@import "./pages/bts-sio";

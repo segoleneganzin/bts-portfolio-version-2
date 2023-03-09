@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 5% 0 5% 0;
+  margin: 6% 0 8% 0;
   position: relative;
 }
 @media screen and (max-width: 650px) {
@@ -46,7 +46,7 @@ a:hover {
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 h2 {
@@ -111,6 +111,10 @@ p {
   display: block;
   padding: 10px;
 }
+.menu .item-menu--right {
+  position: absolute;
+  right: 5%;
+}
 
 .site-header {
   width: 100%;
@@ -140,27 +144,22 @@ p {
 }
 
 footer {
-  height: 20%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   font-style: italic;
   text-align: center;
   /*social-media toolbar*/
 }
+footer p {
+  font-size: 15px;
+}
 footer .social-media {
-  width: 15%;
   transform: scale(0.5);
   display: flex;
   flex-direction: row;
   margin: auto;
   background-color: transparent;
-}
-footer .social-media a {
-  margin: 0 5%;
-}
-@media screen and (max-width: 1840px) {
-  footer {
-    height: auto;
-    margin-bottom: 4%;
-  }
 }
 
 #scroll_to_top {
@@ -187,224 +186,15 @@ footer .social-media a {
   transition: 1s cubic-bezier(0.77, 0.17, 0.43, 0.97);
 }
 
-/*********************formation et experiences**********************/
-.training {
-  width: 80%;
-  height: 150%;
-  margin: 5% auto 5% auto;
-  padding: 1% 5% 5% 5%;
-  background: white;
-  color: #363636;
-  border-radius: 10px;
-  text-align: center;
-}
-.training .separation {
-  border-radius: 10px;
-}
-.training img {
-  width: 100%;
-  padding-top: 5%;
-}
-@media screen and (max-width: 1440px) {
-  .training {
-    height: 200%;
-    width: 100%;
-    border-radius: 0%;
-    background-color: black;
-    color: white;
-  }
-  .training img {
-    border-radius: 10px;
-  }
-}
-
-/*********************competences**********************/
-.skills {
-  padding: 0% 0% 5% 0%;
-  width: 100%;
-}
-@media screen and (max-width: 1440px) {
-  .skills {
-    background-size: 20%;
-    background-position: 90%;
-  }
-}
-@media screen and (max-width: 425px) {
-  .skills {
-    background-image: none;
-  }
-}
-.skills .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 45%;
-  width: 50%;
-}
-@media screen and (max-width: 425px) {
-  .skills .container {
-    width: 90%;
-  }
-  .skills .container p {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .skills .container {
-    margin-left: 5%;
-  }
-}
-
-/*********************projets**********************/
-.project {
-  padding: 0 4% 4% 4%;
-  display: flex;
-  flex-direction: column;
-}
-.project h1 {
-  text-align: center;
-  padding-bottom: 4%;
-}
-.project img {
-  max-width: 300px;
-}
-.project .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-@media screen and (max-width: 768px) {
-  .project .container {
-    flex-direction: column;
-  }
-}
-.project .container .project-box {
-  border-radius: 10px;
-  padding: 2%;
-}
-.project .container .project-box img {
-  width: 100%;
-  margin: 5px;
-  border-radius: 10px;
-}
-.project .container .project-box p {
-  margin: 1%;
-  font-style: italic;
-  font-size: 20px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .project .container .project-box {
-    margin: 5% auto 5% auto;
-    padding: 3px;
-    width: 62%;
-  }
-  .project .container .project-box img {
-    width: 96%;
-  }
-  .project .container .project-box h2 {
-    width: 96%;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .project .container .project-box p {
-    width: 96%;
-    font-size: smaller;
-  }
-}
-
-/*********************centres d'interet**********************/
-.hobbies {
-  background: #363636;
-  padding: 1% 5% 5% 5%;
-}
-.hobbies h1 {
-  margin-bottom: 5%;
-}
-.hobbies p {
-  display: flex;
-  justify-content: space-between;
-}
-@media screen and (max-width: 1024px) {
-  .hobbies p {
-    flex-direction: column;
-  }
-  .hobbies p img {
-    width: 50px;
-    margin: auto;
-  }
-}
-
-/*********************contact**********************/
-.contact .container {
-  width: 100%;
-}
-.contact .container img {
-  display: block;
-  margin: auto;
-}
-
 .accueil {
-  height: 54vh;
+  height: 60vh;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-@media screen and (max-width: 1440px) {
-  .accueil {
-    flex-direction: column;
-  }
-}
-.accueil-img {
-  margin: 16% 2% 0 0;
-  height: 300px;
-  background-color: rgba(248, 174, 72, 0.3);
-  border-radius: 0 50px 50px 0;
-  width: 400px;
-}
-.accueil-img img {
-  border-radius: 100%;
-  border: 5px solid #F8AE48;
-  width: 300px;
-  margin-left: 50%;
-}
-@media screen and (max-width: 1440px) {
-  .accueil-img img {
-    margin-left: 0%;
-  }
-}
-@media screen and (max-width: 640px) {
-  .accueil-img img {
-    width: 40vw;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .accueil-img {
-    margin: 0 auto 5% auto;
-    padding-top: 75px;
-    height: 300px;
-    background-color: rgba(248, 174, 72, 0.3);
-    border-radius: 0 0 50px 50px;
-    width: 300px;
-  }
-}
-@media screen and (max-width: 640px) {
-  .accueil-img {
-    margin: 0 auto 15% auto;
-    padding-top: 65px;
-    height: 200px;
-    background-color: rgba(248, 174, 72, 0.3);
-    border-radius: 0 0 50px 50px;
-    width: 40vw;
-  }
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 .accueil .accueil-name {
   margin: 5% auto 0 auto;
-}
-.accueil .accueil-name h1 {
-  text-align: left;
-  margin-bottom: 2%;
-  padding: 0;
 }
 .accueil .accueil-name .typewriter-name {
   font-size: 150px;
@@ -450,12 +240,6 @@ footer .social-media a {
 .accueil .accueil-name .accueil-resume {
   font-style: italic;
 }
-@media screen and (max-width: 1440px) {
-  .accueil .accueil-name {
-    margin: 0 auto 0 auto;
-    padding-left: 5%;
-  }
-}
 .accueil .accueil-button {
   width: 10%;
   margin: 2% auto;
@@ -473,8 +257,250 @@ footer .social-media a {
   background-color: rgb(2, 59, 107);
   border: 0px solid #ffffff;
 }
+
+/*********************formation et experiences**********************/
+.training {
+  width: 80%;
+  height: 150%;
+  margin: 5% auto 5% auto;
+  padding: 1% 5% 5% 5%;
+  background: white;
+  color: #363636;
+  border-radius: 10px;
+  text-align: center;
+}
+.training .separation {
+  border-radius: 10px;
+}
+.training img {
+  width: 100%;
+  padding-top: 5%;
+}
 @media screen and (max-width: 1440px) {
-  .accueil {
-    margin: 0 auto 0 auto;
+  .training {
+    height: 200%;
+    width: 100%;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
   }
+  .training img {
+    border-radius: 10px;
+  }
+}
+
+/*********************competences**********************/
+.skills .container {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.skills .container h4 {
+  margin: 2%;
+  font-size: 25px;
+  font-weight: 600;
+}
+@media screen and (max-width: 425px) {
+  .skills .container {
+    width: 90%;
+  }
+  .skills .container p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .skills .container {
+    margin-left: 5%;
+  }
+}
+
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+/* The Nivo Slider styles */
+.nivoSlider {
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: none;
+}
+
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+  background: white;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.nivo-box img {
+  display: block;
+}
+
+/* Caption styles */
+.nivo-caption {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  z-index: 8;
+  padding: 5px 10px;
+  opacity: 0.8;
+  overflow: hidden;
+  display: none;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8); /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.nivo-caption p {
+  padding: 5px;
+  margin: 0;
+}
+
+.nivo-caption a {
+  display: inline !important;
+}
+
+.nivo-html-caption {
+  display: none;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.nivo-prevNav {
+  left: 0px;
+}
+
+.nivo-nextNav {
+  right: 0px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.nivo-controlNav a {
+  cursor: pointer;
+}
+
+.nivo-controlNav a.active {
+  font-weight: bold;
+}
+
+/*********************projets**********************/
+.project {
+  display: flex;
+  flex-direction: column;
+}
+.project img {
+  max-width: 300px;
+}
+.project .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .project .container {
+    flex-direction: column;
+  }
+}
+.project .container .project-box {
+  border-radius: 10px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 40%;
+}
+.project .container .project-box img {
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .project .container .project-box {
+    margin: 5% auto 5% auto;
+    padding: 3px;
+    width: 62%;
+  }
+  .project .container .project-box img {
+    width: 96%;
+  }
+  .project .container .project-box h2 {
+    width: 96%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .project .container .project-box p {
+    width: 96%;
+    font-size: smaller;
+  }
+}
+
+/*********************contact**********************/
+.contact .container {
+  width: 100%;
+}
+.contact .container img {
+  display: block;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

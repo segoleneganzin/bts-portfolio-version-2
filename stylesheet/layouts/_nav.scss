@@ -14,5 +14,9 @@
     font-size: 20px;
     display: block;
     padding: 10px;
+    &--right {
+      position: absolute;
+      right: 5%;
+    }
   }
 }

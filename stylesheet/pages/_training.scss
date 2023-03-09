@@ -1,0 +1,28 @@
+/*********************formation et experiences**********************/
+.training {
+  width: 80%;
+  height: 150%;
+  margin: 5% auto 5% auto;
+  padding: 1% 5% 5% 5%;
+  background: white;
+  color: $grey;
+  border-radius: 10px;
+  text-align: center;
+  .separation {
+    border-radius: 10px;
+  }
+  img {
+    width: 100%;
+    padding-top: 5%;
+  }
+  @media screen and (max-width: 1440px) {
+    height: 200%;
+    width: 100%;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    img {
+      border-radius: 10px;
+    }
+  }
+}
