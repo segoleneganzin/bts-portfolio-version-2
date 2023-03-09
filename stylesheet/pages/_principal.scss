@@ -1,0 +1,144 @@
+/*********************formation et experiences**********************/
+.training {
+  width: 80%;
+  height: 150%;
+  margin: 5% auto 5% auto;
+  padding: 1% 5% 5% 5%;
+  background: white;
+  color: $grey;
+  border-radius: 10px;
+  text-align: center;
+  .separation {
+    border-radius: 10px;
+  }
+  img {
+    width: 100%;
+    padding-top: 5%;
+  }
+  @media screen and (max-width: 1440px) {
+    height: 200%;
+    width: 100%;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+/*********************competences**********************/
+.skills {
+  // background-image: url(../img/rouages.png);
+  // background-repeat: no-repeat;
+  // background-size: 25%;
+  // background-position: 12%;
+  padding: 0% 0% 5% 0%;
+  width: 100%;
+  @media screen and (max-width: 1440px) {
+    background-size: 20%;
+    background-position: 90%;
+  }
+  @media screen and (max-width: 425px) {
+    background-image: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 45%;
+    width: 50%;
+    @media screen and (max-width: 425px) {
+      width: 90%;
+      p {
+        width: 90%;
+      }
+    }
+
+    @media screen and (max-width: 1440px) {
+      margin-left: 5%;
+    }
+  }
+}
+/*********************projets**********************/
+.project {
+  padding: 0 4% 4% 4%;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    text-align: center;
+    padding-bottom: 4%;
+  }
+  img {
+    max-width: 300px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .project-box {
+      border-radius: 10px;
+      padding: 2%;
+      img {
+        width: 100%;
+        margin: 5px;
+        border-radius: 10px;
+      }
+      p {
+        margin: 1%;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+      }
+      @media screen and (max-width: 768px) {
+        margin: 5% auto 5% auto;
+        padding: 3px;
+        width: 62%;
+        img {
+          width: 96%;
+        }
+        h2 {
+          width: 96%;
+          font-size: 15px;
+          font-weight: bold;
+        }
+        p {
+          width: 96%;
+          font-size: smaller;
+        }
+      }
+    }
+  }
+}
+/*********************centres d'interet**********************/
+.hobbies {
+  background: $grey;
+  padding: 1% 5% 5% 5%;
+  h1 {
+    margin-bottom: 5%;
+  }
+  p {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      img {
+        width: 50px;
+        margin: auto;
+      }
+    }
+  }
+}
+/*********************contact**********************/
+.contact {
+  .container {
+    width: 100%;
+    img {
+      display: block;
+      margin: auto;
+    }
+  }
+}

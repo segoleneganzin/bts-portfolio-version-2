@@ -1,0 +1,480 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+main {
+  margin: 5% 0 5% 0;
+  position: relative;
+}
+@media screen and (max-width: 650px) {
+  main {
+    margin-bottom: 15%;
+  }
+}
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url("/portfolio-bts-php-js/font/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url("/portfolio-bts-php-js/font/Tangerine/Tangerine-Regular.ttf");
+}
+body {
+  font-family: "RobotoMono", sans-serif;
+  color: #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #023B6B;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.important-word {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.quote {
+  font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+  a {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media screen and (max-width: 1040px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2% 0 0;
+    text-align: right;
+  }
+}
+.menu .item-menu {
+  float: left;
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+}
+
+.site-header {
+  width: 100%;
+  background-color: #000000;
+}
+.site-header--name {
+  text-align: left;
+  margin: 1% 15% 1% 5%;
+  font-family: "Tangerine";
+  font-size: 50px;
+}
+.site-header--name:hover {
+  font-size: 60px;
+}
+.site-header .identity-img {
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0 50px 50px 0;
+  width: 100px;
+}
+.site-header .identity-img img {
+  border-radius: 100%;
+  width: 150px;
+}
+.site-header .navbar-toggler {
+  padding-right: 15%;
+}
+
+footer {
+  height: 20%;
+  font-style: italic;
+  text-align: center;
+  /*social-media toolbar*/
+}
+footer .social-media {
+  width: 15%;
+  transform: scale(0.5);
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background-color: transparent;
+}
+footer .social-media a {
+  margin: 0 5%;
+}
+@media screen and (max-width: 1840px) {
+  footer {
+    height: auto;
+    margin-bottom: 4%;
+  }
+}
+
+#scroll_to_top {
+  position: fixed;
+  bottom: 25%;
+  right: 2%;
+}
+
+.separation {
+  height: 2px;
+  width: 100%;
+  background: #023b6b;
+  background: linear-gradient(90deg, rgb(2, 59, 107) 0%, rgb(59, 73, 180) 50%, rgb(252, 176, 69) 100%);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(0.77, 0.17, 0.43, 0.97);
+}
+
+/*********************formation et experiences**********************/
+.training {
+  width: 80%;
+  height: 150%;
+  margin: 5% auto 5% auto;
+  padding: 1% 5% 5% 5%;
+  background: white;
+  color: #363636;
+  border-radius: 10px;
+  text-align: center;
+}
+.training .separation {
+  border-radius: 10px;
+}
+.training img {
+  width: 100%;
+  padding-top: 5%;
+}
+@media screen and (max-width: 1440px) {
+  .training {
+    height: 200%;
+    width: 100%;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+  }
+  .training img {
+    border-radius: 10px;
+  }
+}
+
+/*********************competences**********************/
+.skills {
+  padding: 0% 0% 5% 0%;
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .skills {
+    background-size: 20%;
+    background-position: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .skills {
+    background-image: none;
+  }
+}
+.skills .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 45%;
+  width: 50%;
+}
+@media screen and (max-width: 425px) {
+  .skills .container {
+    width: 90%;
+  }
+  .skills .container p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .skills .container {
+    margin-left: 5%;
+  }
+}
+
+/*********************projets**********************/
+.project {
+  padding: 0 4% 4% 4%;
+  display: flex;
+  flex-direction: column;
+}
+.project h1 {
+  text-align: center;
+  padding-bottom: 4%;
+}
+.project img {
+  max-width: 300px;
+}
+.project .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .project .container {
+    flex-direction: column;
+  }
+}
+.project .container .project-box {
+  border-radius: 10px;
+  padding: 2%;
+}
+.project .container .project-box img {
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.project .container .project-box p {
+  margin: 1%;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .project .container .project-box {
+    margin: 5% auto 5% auto;
+    padding: 3px;
+    width: 62%;
+  }
+  .project .container .project-box img {
+    width: 96%;
+  }
+  .project .container .project-box h2 {
+    width: 96%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .project .container .project-box p {
+    width: 96%;
+    font-size: smaller;
+  }
+}
+
+/*********************centres d'interet**********************/
+.hobbies {
+  background: #363636;
+  padding: 1% 5% 5% 5%;
+}
+.hobbies h1 {
+  margin-bottom: 5%;
+}
+.hobbies p {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .hobbies p {
+    flex-direction: column;
+  }
+  .hobbies p img {
+    width: 50px;
+    margin: auto;
+  }
+}
+
+/*********************contact**********************/
+.contact .container {
+  width: 100%;
+}
+.contact .container img {
+  display: block;
+  margin: auto;
+}
+
+.accueil {
+  height: 54vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1440px) {
+  .accueil {
+    flex-direction: column;
+  }
+}
+.accueil-img {
+  margin: 16% 2% 0 0;
+  height: 300px;
+  background-color: rgba(248, 174, 72, 0.3);
+  border-radius: 0 50px 50px 0;
+  width: 400px;
+}
+.accueil-img img {
+  border-radius: 100%;
+  border: 5px solid #F8AE48;
+  width: 300px;
+  margin-left: 50%;
+}
+@media screen and (max-width: 1440px) {
+  .accueil-img img {
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .accueil-img img {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .accueil-img {
+    margin: 0 auto 5% auto;
+    padding-top: 75px;
+    height: 300px;
+    background-color: rgba(248, 174, 72, 0.3);
+    border-radius: 0 0 50px 50px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .accueil-img {
+    margin: 0 auto 15% auto;
+    padding-top: 65px;
+    height: 200px;
+    background-color: rgba(248, 174, 72, 0.3);
+    border-radius: 0 0 50px 50px;
+    width: 40vw;
+  }
+}
+.accueil .accueil-name {
+  margin: 5% auto 0 auto;
+}
+.accueil .accueil-name h1 {
+  text-align: left;
+  margin-bottom: 2%;
+  padding: 0;
+}
+.accueil .accueil-name .typewriter-name {
+  font-size: 150px;
+  font-family: "Tangerine", sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 5% 0;
+  letter-spacing: 0.15em;
+  -webkit-animation: typewriting 3.5s steps(40, end);
+          animation: typewriting 3.5s steps(40, end);
+}
+@media screen and (max-width: 1440px) {
+  .accueil .accueil-name .typewriter-name {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .accueil .accueil-name .typewriter-name {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .accueil .accueil-name .typewriter-name {
+    font-size: 50px;
+  }
+}
+@-webkit-keyframes typewriting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typewriting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.accueil .accueil-name .accueil-resume {
+  font-style: italic;
+}
+@media screen and (max-width: 1440px) {
+  .accueil .accueil-name {
+    margin: 0 auto 0 auto;
+    padding-left: 5%;
+  }
+}
+.accueil .accueil-button {
+  width: 10%;
+  margin: 2% auto;
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.accueil .accueil-button:hover {
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(2, 59, 107);
+  border: 0px solid #ffffff;
+}
+@media screen and (max-width: 1440px) {
+  .accueil {
+    margin: 0 auto 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */

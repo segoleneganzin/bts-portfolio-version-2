@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "RobotoMono";
+  src: url("/portfolio-bts-php-js/font/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url("/portfolio-bts-php-js/font/Tangerine/Tangerine-Regular.ttf");
+}
+body {
+  font-family: "RobotoMono", sans-serif;
+  color: #d3d3d3;
+}
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 25px;
+}
+a:hover {
+  color: $darkblue;
+  font-weight: 600;
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+  //   padding: 2%;
+  font-size: 50px;
+}
+h2 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+.important-word {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+.quote {
+  font-style: italic;
+}
+@media screen and (max-width: 1024px) {
+  a {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
