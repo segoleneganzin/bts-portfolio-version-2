@@ -136,164 +136,164 @@ body {
           animation: 20s linear 0s infinite shine;
 }
 .night .stars-container__star:nth-child(1) {
-  opacity: 0.9546;
-  transform: translate(-6.8421vw, 40.198vh) scale(0.3561);
+  opacity: 0.4656;
+  transform: translate(11.5004vw, 35.869vh) scale(0.9881);
 }
 .night .stars-container__star:nth-child(2) {
-  opacity: 0.3553;
-  transform: translate(-4.3929vw, 59.15vh) scale(0.9563);
+  opacity: 0.1385;
+  transform: translate(15.6143vw, 40.148vh) scale(0.8562);
 }
 .night .stars-container__star:nth-child(3) {
-  opacity: 0.3708;
-  transform: translate(4.6023vw, 77.717vh) scale(0.0088);
+  opacity: 0.7563;
+  transform: translate(-1.2593vw, 45.031vh) scale(0.0368);
 }
 .night .stars-container__star:nth-child(4) {
-  opacity: 0.1005;
-  transform: translate(11.4784vw, 31.461vh) scale(0.2183);
+  opacity: 0.1096;
+  transform: translate(9.8631vw, 48.844vh) scale(0.3181);
 }
 .night .stars-container__star:nth-child(5) {
-  opacity: 0.2952;
-  transform: translate(9.6196vw, 47.238vh) scale(0.6971);
+  opacity: 0.8984;
+  transform: translate(1.296vw, 59.286vh) scale(0.67);
 }
 .night .stars-container__star:nth-child(6) {
-  opacity: 0.0186;
-  transform: translate(-7.0143vw, 33.575vh) scale(0.9941);
+  opacity: 0.2604;
+  transform: translate(4.2617vw, 72.82vh) scale(0.5244);
 }
 .night .stars-container__star:nth-child(7) {
-  opacity: 0.0454;
-  transform: translate(-2.494vw, 44.552vh) scale(0.9208);
+  opacity: 0.6501;
+  transform: translate(14.9679vw, 77.499vh) scale(0.2966);
 }
 .night .stars-container__star:nth-child(8) {
-  opacity: 0.3194;
-  transform: translate(1.0844vw, 41.879vh) scale(0.6692);
+  opacity: 0.6877;
+  transform: translate(5.7247vw, 37.09vh) scale(0.699);
 }
 .night .stars-container__star:nth-child(9) {
-  opacity: 0.2645;
-  transform: translate(-2.6165vw, 48.817vh) scale(0.6707);
+  opacity: 0.7426;
+  transform: translate(-0.8872vw, 39.867vh) scale(0.7191);
 }
 .night .stars-container__star:nth-child(10) {
-  opacity: 0.8236;
-  transform: translate(9.4946vw, 79.804vh) scale(0.2293);
+  opacity: 0.035;
+  transform: translate(11.9675vw, 73.261vh) scale(0.628);
 }
 .night .stars-container__star:nth-child(11) {
-  opacity: 0.6011;
-  transform: translate(9.9876vw, 51.021vh) scale(0.8146);
+  opacity: 0.8487;
+  transform: translate(2.9722vw, 60.133vh) scale(0.8215);
 }
 .night .stars-container__star:nth-child(12) {
-  opacity: 0.8307;
-  transform: translate(-5.1574vw, 78.461vh) scale(0.2373);
+  opacity: 0.8384;
+  transform: translate(-2.9473vw, 58.539vh) scale(0.1028);
 }
 .night .stars-container__star:nth-child(13) {
-  opacity: 0.037;
-  transform: translate(-4.6921vw, 48.218vh) scale(0.9404);
+  opacity: 0.0764;
+  transform: translate(7.1152vw, 50.04vh) scale(0.3765);
 }
 .night .stars-container__star:nth-child(14) {
-  opacity: 0.2473;
-  transform: translate(-5.7169vw, 53.711vh) scale(0.7686);
+  opacity: 0.4756;
+  transform: translate(-0.3583vw, 50.223vh) scale(0.3437);
 }
 .night .stars-container__star:nth-child(15) {
-  opacity: 0.6791;
-  transform: translate(2.1619vw, 37.241vh) scale(0.0543);
+  opacity: 0.5627;
+  transform: translate(-3.4539vw, 79.465vh) scale(0.8124);
 }
 .night .stars-container__star:nth-child(16) {
-  opacity: 0.4762;
-  transform: translate(18.0597vw, 66.861vh) scale(0.7183);
+  opacity: 0.1349;
+  transform: translate(-0.7617vw, 64.276vh) scale(0.1008);
 }
 .night .stars-container__star:nth-child(17) {
-  opacity: 0.0138;
-  transform: translate(1.3967vw, 74.769vh) scale(0.7884);
+  opacity: 0.6442;
+  transform: translate(17.4383vw, 49.802vh) scale(0.6282);
 }
 .night .stars-container__star:nth-child(18) {
-  opacity: 0.8607;
-  transform: translate(9.9785vw, 53.439vh) scale(0.4767);
+  opacity: 0.5967;
+  transform: translate(14.5574vw, 48.489vh) scale(0.4272);
 }
 .night .stars-container__star:nth-child(19) {
-  opacity: 0.471;
-  transform: translate(5.3351vw, 47.162vh) scale(0.7604);
+  opacity: 0.4961;
+  transform: translate(-2.7403vw, 74.459vh) scale(0.5349);
 }
 .night .stars-container__star:nth-child(20) {
-  opacity: 0.8643;
-  transform: translate(9.8486vw, 37.188vh) scale(0.2562);
+  opacity: 0.2115;
+  transform: translate(8.4296vw, 40.719vh) scale(0.5907);
 }
 .night .stars-container__star:nth-child(21) {
-  opacity: 0.5094;
-  transform: translate(-3.3041vw, 33.549vh) scale(0.112);
+  opacity: 0.2299;
+  transform: translate(13.1784vw, 50.367vh) scale(0.86);
 }
 .night .stars-container__star:nth-child(22) {
-  opacity: 0.7774;
-  transform: translate(2.2195vw, 37.207vh) scale(0.4167);
+  opacity: 0.8131;
+  transform: translate(14.4095vw, 38.673vh) scale(0.0503);
 }
 .night .stars-container__star:nth-child(23) {
-  opacity: 0.324;
-  transform: translate(-2.9237vw, 60.226vh) scale(0.8246);
+  opacity: 0.47;
+  transform: translate(11.6645vw, 60.196vh) scale(0.8647);
 }
 .night .stars-container__star:nth-child(24) {
-  opacity: 0.7631;
-  transform: translate(6.001vw, 55.113vh) scale(0.2941);
+  opacity: 0.4763;
+  transform: translate(7.1549vw, 71.243vh) scale(0.5938);
 }
 .night .stars-container__star:nth-child(25) {
-  opacity: 0.2337;
-  transform: translate(3.3317vw, 61.073vh) scale(0.6283);
+  opacity: 0.0728;
+  transform: translate(8.2989vw, 51.835vh) scale(0.0073);
 }
 .night .stars-container__star:nth-child(26) {
-  opacity: 0.4932;
-  transform: translate(0.3476vw, 45.413vh) scale(0.4303);
+  opacity: 0.1733;
+  transform: translate(9.0476vw, 31.247vh) scale(0.0681);
 }
 .night .stars-container__star:nth-child(27) {
-  opacity: 0.1443;
-  transform: translate(2.516vw, 55.006vh) scale(0.1465);
+  opacity: 0.5901;
+  transform: translate(8.1357vw, 60.043vh) scale(0.3205);
 }
 .night .stars-container__star:nth-child(28) {
-  opacity: 0.6739;
-  transform: translate(13.5219vw, 42.03vh) scale(0.1466);
+  opacity: 0.0448;
+  transform: translate(11.9235vw, 59.559vh) scale(0.2245);
 }
 .night .stars-container__star:nth-child(29) {
-  opacity: 0.6316;
-  transform: translate(11.6814vw, 62.958vh) scale(0.2084);
+  opacity: 0.2931;
+  transform: translate(10.1086vw, 77.267vh) scale(0.0934);
 }
 .night .stars-container__star:nth-child(30) {
-  opacity: 0.3198;
-  transform: translate(6.9038vw, 63.694vh) scale(0.285);
+  opacity: 0.0775;
+  transform: translate(4.1915vw, 48.043vh) scale(0.2423);
 }
 .night .stars-container__star:nth-child(31) {
-  opacity: 0.0564;
-  transform: translate(2.8086vw, 32.937vh) scale(0.3709);
+  opacity: 0.2989;
+  transform: translate(5.9009vw, 59.901vh) scale(0.6315);
 }
 .night .stars-container__star:nth-child(32) {
-  opacity: 0.9659;
-  transform: translate(10.8513vw, 72.77vh) scale(0.1797);
+  opacity: 0.2431;
+  transform: translate(-5.4615vw, 73.976vh) scale(0.039);
 }
 .night .stars-container__star:nth-child(33) {
-  opacity: 0.6749;
-  transform: translate(10.9941vw, 49.318vh) scale(0.8182);
+  opacity: 0.8127;
+  transform: translate(-5.3648vw, 61.191vh) scale(0.7381);
 }
 .night .stars-container__star:nth-child(34) {
-  opacity: 0.1474;
-  transform: translate(-2.2203vw, 50.849vh) scale(0.0829);
+  opacity: 0.5002;
+  transform: translate(6.5206vw, 52.761vh) scale(0.3999);
 }
 .night .stars-container__star:nth-child(35) {
-  opacity: 0.8924;
-  transform: translate(1.6689vw, 54.3vh) scale(0.6646);
+  opacity: 0.6576;
+  transform: translate(5.5439vw, 30.176vh) scale(0.0584);
 }
 .night .stars-container__star:nth-child(36) {
-  opacity: 0.8867;
-  transform: translate(5.7839vw, 30.295vh) scale(0.6614);
+  opacity: 0.6081;
+  transform: translate(5.4031vw, 63.634vh) scale(0.7477);
 }
 .night .stars-container__star:nth-child(37) {
-  opacity: 0.007;
-  transform: translate(3.6958vw, 58.865vh) scale(0.7015);
+  opacity: 0.9981;
+  transform: translate(8.7373vw, 39.278vh) scale(0.2666);
 }
 .night .stars-container__star:nth-child(38) {
-  opacity: 0.5749;
-  transform: translate(-4.3518vw, 39.502vh) scale(0.0801);
+  opacity: 0.2779;
+  transform: translate(0.4849vw, 59.026vh) scale(0.5915);
 }
 .night .stars-container__star:nth-child(39) {
-  opacity: 0.7792;
-  transform: translate(10.6207vw, 60.646vh) scale(0.7371);
+  opacity: 0.5162;
+  transform: translate(-4.5501vw, 55.058vh) scale(0.3166);
 }
 .night .stars-container__star:nth-child(40) {
-  opacity: 0.3509;
-  transform: translate(7.6483vw, 70.088vh) scale(0.6921);
+  opacity: 0.9575;
+  transform: translate(3.8571vw, 64.901vh) scale(0.6403);
 }
 @-webkit-keyframes shine {
   0% {
