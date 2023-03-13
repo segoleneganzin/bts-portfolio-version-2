@@ -5,13 +5,9 @@
 }
 
 body {
-  background: #000000;
+  background: black;
 }
 
-main {
-  margin: 6% 0 8% 0;
-  position: relative;
-  @media screen and (max-width: 650px) {
-    margin-bottom: 15%;
-  }
+html {
+  height: 100vh;
 }

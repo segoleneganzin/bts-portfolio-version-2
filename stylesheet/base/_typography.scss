@@ -6,20 +6,24 @@
   font-family: "Tangerine";
   src: url("/portfolio-bts-php-js/font/Tangerine/Tangerine-Regular.ttf");
 }
+@font-face {
+  font-family: "DancingScript";
+  src: url("/portfolio-bts-php-js/font/Dancing_script/static/DancingScript-Regular.ttf");
+}
 body {
   font-family: "RobotoMono", sans-serif;
-  color: #d3d3d3;
+  color: $principal-text-color;
 }
 a {
   text-decoration: none;
-  color: #d3d3d3;
+  color: $principal-text-color;
   font-weight: 600;
   font-size: 25px;
 }
 a:hover {
-  color: $darkblue;
-  font-weight: 600;
-  font-size: 25px;
+  color: $blue;
+  font-size: 30px;
+  text-decoration: none;
 }
 h1 {
   text-align: center;
@@ -27,7 +31,7 @@ h1 {
   font-size: 80px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 p {
   font-size: 20px;
@@ -35,7 +39,7 @@ p {
 .important-word {
   font-size: larger;
   font-weight: bold;
-  color: white;
+  color: $pink;
 }
 .quote {
   font-style: italic;

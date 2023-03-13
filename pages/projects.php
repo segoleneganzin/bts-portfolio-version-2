@@ -8,7 +8,7 @@
         <a href="./galerie.html#java" aria-label="Go to the project"><img src="../img/java-pc.png" data-thumb="image/java-pc.png" alt="Java" class="side-image" /></a> -->
 <!-- </div> -->
 <!-- </section>  -->
-<div class="container">
+<div class="projects">
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->

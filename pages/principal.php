@@ -36,9 +36,6 @@
         </div>
     </main>
 
-    <!--separation-->
-    <div class="separation"></div>
-
     <!-- footer -->
     <?php include('../inc_components/footer.php') ?>
 

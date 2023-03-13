@@ -4,60 +4,60 @@
         <p>
         <div>
             <h4>Programmation</h4>
-            <p style="font-size: smaller">
-                HTML, CSS, JavaScript, PHP, JAVA, Python
+            <p>
+                HTML, CSS, JavaScript, React, PHP, JAVA, Python
             </p>
         </div>
         <div>
             <h4>Gestion de serveurs</h4>
-            <p style="font-size: smaller">
+            <p>
                 VM, NAS, LINUX, Apache, Windows, WAMP
             </p>
         </div>
         <div>
             <h4>Gestion de base de données</h4>
-            <p style="font-size: smaller">
+            <p>
                 MySQL, SQL Server, UML
             </p>
         </div>
         <div>
             <h4>CyberSécurité</h4>
-            <p style="font-size: smaller">
+            <p>
                 OWASP, Hacking [injections SQL, homme du milieu], Secure Coding, RGPD
             </p>
         </div>
         <div>
             <h4>Utilisation d'un terminal de commande</h4>
-            <p style="font-size: smaller">
+            <p>
                 PowerShell, Bash, Unix
             </p>
         </div>
         <div>
             <h4>Optimisation d'un réseau</h2>
-                <p style="font-size: smaller">
+                <p>
                     DHCP, WDS, WSUS
                 </p>
         </div>
         <div>
             <h4>Mise en place d'un environnement de test</h4>
-            <p style="font-size: smaller">
+            <p>
                 VirtualBox, Putty, SSH
             </p>
         </div>
         <div>
             <h4>Travail en collaboration</h4>
-            <p style="font-size: smaller">
+            <p>
                 GitHub, NAS, Cloud
             </p>
         </div>
         <div>
             <h4>Réalisation de veilles technologiques</h4>
-            <p style="font-size: smaller">
+            <p>
                 Flux RSS, Feedly, Medium
             </p>
         </div>
         </p>
-        <p>
+        <p class="soft-skills">
             <strong>Echanger</strong> des idées <br />
             <strong>Transmettre</strong> des informations<br />
             <strong>Mobiliser</strong> l’écoute d’un public<br />

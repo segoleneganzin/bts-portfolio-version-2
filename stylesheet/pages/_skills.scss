@@ -1,7 +1,6 @@
 /*********************competences**********************/
 .skills {
-  // width: 100%;
-
+  margin-bottom: 5%;
   .container {
     padding-top: 2%;
     display: flex;
@@ -12,6 +11,13 @@
       margin: 2%;
       font-size: 25px;
       font-weight: 600;
+    }
+    p {
+      font-size: 15px;
+      color: $violet;
+    }
+    .soft-skills {
+      color: $principal-text-color;
     }
     @media screen and (max-width: 425px) {
       width: 90%;

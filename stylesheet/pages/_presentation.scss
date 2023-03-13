@@ -1,5 +1,15 @@
-
-
-
-
-
+.presentation {
+  h1 {
+    margin: 2% auto 5% auto;
+  }
+  p {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+  }
+  h2 {
+    font-weight: 600;
+    color: $pink;
+    text-align: center;
+  }
+}

@@ -5,17 +5,11 @@
 }
 
 body {
-  background: #000000;
+  background: black;
 }
 
-main {
-  margin: 6% 0 8% 0;
-  position: relative;
-}
-@media screen and (max-width: 650px) {
-  main {
-    margin-bottom: 15%;
-  }
+html {
+  height: 100vh;
 }
 
 @font-face {
@@ -26,22 +20,26 @@ main {
   font-family: "Tangerine";
   src: url("/portfolio-bts-php-js/font/Tangerine/Tangerine-Regular.ttf");
 }
+@font-face {
+  font-family: "DancingScript";
+  src: url("/portfolio-bts-php-js/font/Dancing_script/static/DancingScript-Regular.ttf");
+}
 body {
   font-family: "RobotoMono", sans-serif;
-  color: #d3d3d3;
+  color: rgb(121, 120, 120);
 }
 
 a {
   text-decoration: none;
-  color: #d3d3d3;
+  color: rgb(121, 120, 120);
   font-weight: 600;
   font-size: 25px;
 }
 
 a:hover {
-  color: #023B6B;
-  font-weight: 600;
-  font-size: 25px;
+  color: #355c7d;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 h1 {
@@ -50,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
@@ -60,7 +58,7 @@ p {
 .important-word {
   font-size: larger;
   font-weight: bold;
-  color: white;
+  color: #c56c86;
 }
 
 .quote {
@@ -149,6 +147,7 @@ footer {
   position: relative;
   font-style: italic;
   text-align: center;
+  bottom: 1%;
   /*social-media toolbar*/
 }
 footer p {
@@ -163,9 +162,11 @@ footer .social-media {
 }
 
 #scroll_to_top {
-  position: fixed;
-  bottom: 25%;
-  right: 2%;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 5%;
+  text-align: right;
+  margin-right: 2%;
 }
 
 .separation {
@@ -186,8 +187,22 @@ footer .social-media {
   transition: 1s cubic-bezier(0.77, 0.17, 0.43, 0.97);
 }
 
+.presentation h1 {
+  margin: 2% auto 5% auto;
+}
+.presentation p {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+.presentation h2 {
+  font-weight: 600;
+  color: #c56c86;
+  text-align: center;
+}
+
 .accueil {
-  height: 60vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,6 +212,7 @@ footer .social-media {
   margin: 5% auto 0 auto;
 }
 .accueil .accueil-name .typewriter-name {
+  color: #355c7d;
   font-size: 150px;
   font-family: "Tangerine", sans-serif;
   overflow: hidden;
@@ -221,47 +237,28 @@ footer .social-media {
     font-size: 50px;
   }
 }
-@-webkit-keyframes typewriting {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes typewriting {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
 .accueil .accueil-name .accueil-resume {
   font-style: italic;
 }
+.accueil .accueil-name .accueil-resume p {
+  font-size: 30px;
+}
 .accueil .accueil-button {
-  width: 10%;
-  margin: 2% auto;
+  margin: 6% auto 0 auto;
   text-decoration: none;
-  padding: 10px;
   font-family: arial;
-  font-size: 1em;
-  color: #000000;
-  background-color: #ffffff;
+  font-size: 5em;
+  color: #ff7582;
+  background-color: black;
   border-radius: 10px;
 }
 .accueil .accueil-button:hover {
-  padding: 10px;
-  color: #ffffff;
-  background-color: rgb(2, 59, 107);
-  border: 0px solid #ffffff;
+  color: #355c7d;
 }
 
 /*********************formation et experiences**********************/
 .training {
   width: 80%;
-  height: 150%;
   margin: 5% auto 5% auto;
   padding: 1% 5% 5% 5%;
   background: white;
@@ -290,6 +287,9 @@ footer .social-media {
 }
 
 /*********************competences**********************/
+.skills {
+  margin-bottom: 5%;
+}
 .skills .container {
   padding-top: 2%;
   display: flex;
@@ -301,6 +301,13 @@ footer .social-media {
   margin: 2%;
   font-size: 25px;
   font-weight: 600;
+}
+.skills .container p {
+  font-size: 15px;
+  color: #725a7a;
+}
+.skills .container .soft-skills {
+  color: rgb(121, 120, 120);
 }
 @media screen and (max-width: 425px) {
   .skills .container {
@@ -330,7 +337,15 @@ footer .social-media {
   margin: auto;
 }
 
+.projects {
+  margin-bottom: 10%;
+}
+
 /*********************contact**********************/
+.contact {
+  height: 50vh;
+  margin-bottom: 10%;
+}
 .contact .container {
   width: 100%;
 }
